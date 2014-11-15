@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D611285C1A177F1F005FB872 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D611285B1A177F1F005FB872 /* FlickrFetcher.m */; };
 		D62383DF1A03D4E400D5451F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62383DE1A03D4E400D5451F /* Foundation.framework */; };
 		D62383E11A03D4E400D5451F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62383E01A03D4E400D5451F /* CoreGraphics.framework */; };
 		D62383E31A03D4E400D5451F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62383E21A03D4E400D5451F /* UIKit.framework */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D61128591A177F1F005FB872 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		D611285A1A177F1F005FB872 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		D611285B1A177F1F005FB872 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
 		D62383DB1A03D4E400D5451F /* FlickrMAB604.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrMAB604.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62383DE1A03D4E400D5451F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D62383E01A03D4E400D5451F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +118,9 @@
 		D62383E41A03D4E400D5451F /* FlickrMAB604 */ = {
 			isa = PBXGroup;
 			children = (
+				D61128591A177F1F005FB872 /* FlickrAPIKey.h */,
+				D611285A1A177F1F005FB872 /* FlickrFetcher.h */,
+				D611285B1A177F1F005FB872 /* FlickrFetcher.m */,
 				D62383ED1A03D4E400D5451F /* AppDelegate.h */,
 				D62383EE1A03D4E400D5451F /* AppDelegate.m */,
 				D62383F01A03D4E400D5451F /* Main_iPhone.storyboard */,
@@ -255,6 +262,7 @@
 			files = (
 				D62383F81A03D4E400D5451F /* ViewController.m in Sources */,
 				D62383EF1A03D4E400D5451F /* AppDelegate.m in Sources */,
+				D611285C1A177F1F005FB872 /* FlickrFetcher.m in Sources */,
 				D62383EB1A03D4E400D5451F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +478,7 @@
 				D62384121A03D4E500D5451F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D62384131A03D4E500D5451F /* Build configuration list for PBXNativeTarget "FlickrMAB604Tests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +487,7 @@
 				D62384151A03D4E500D5451F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
